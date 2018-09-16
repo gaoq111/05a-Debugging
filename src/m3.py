@@ -41,7 +41,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-
+    run_test_broken_1()
 
 ########################################################################
 # Students:
@@ -99,7 +99,7 @@ def run_test_broken_1():
 
 
 # ----------------------------------------------------------------------
-# TODO: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
+# DONE: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
 # ----------------------------------------------------------------------
 def broken_1(m):
@@ -122,7 +122,7 @@ def broken_1(m):
     #    **  use (call) the   is_prime   function that is DEFINED ABOVE.
     count = 0
     for k in range(m+2):
-        if is_prime(k+m):
+        if is_prime(k+m) is True:
             count = count + 1
     return count
 
@@ -130,4 +130,4 @@ def broken_1(m):
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
-    main()
+main()
