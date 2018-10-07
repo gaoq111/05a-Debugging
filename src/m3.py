@@ -5,7 +5,7 @@ That is, no run-time exception occurs, but the function simply
 does not do the right thing.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and Bert.
+         their colleagues and BerT.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
